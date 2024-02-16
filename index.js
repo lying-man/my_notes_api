@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-const folderRoute = require("./routers/folderRouter.js");
-const noteRoute = require("./routers/noteRouter.js");
+const folderRoute = require("./routers/FolderRouter.js");
+const noteRoute = require("./routers/NoteRouter.js");
 const verification = require("./middlewares/verification.js");
 
 const app = express();
